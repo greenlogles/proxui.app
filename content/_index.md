@@ -9,7 +9,7 @@ description: "A lightweight, modern web interface for Proxmox VE"
   <p class="tagline">A modern, lightweight web interface for Proxmox VE</p>
   <div class="cta-buttons">
     <a href="https://github.com/greenlogles/ProxUI" class="btn btn-primary">View on GitHub</a>
-    <a href="https://demo.proxui.app" class="btn btn-secondary">Live Demo</a>
+    <a href="https://demo.proxui.app" class="btn btn-secondary">Live Demo (comming soon)</a>
   </div>
 </div>
 
@@ -112,11 +112,6 @@ Then open [http://localhost:5000](http://localhost:5000) and connect to your Pro
 ## Roadmap
 
 - [ ] LXC container management improvements
-- [ ] Backup and snapshot management UI
-- [ ] Resource usage graphs and history
-- [ ] User authentication and access control
-- [ ] Dark mode theme
-- [ ] API documentation
 
 ---
 
@@ -130,7 +125,7 @@ Then open [http://localhost:5000](http://localhost:5000) and connect to your Pro
 
 ## License
 
-ProxUI is open source software licensed under the MIT License.
+ProxUI is open source software licensed under the GPLv3.
 
 <div class="footer-note">
   ProxUI is not affiliated with or endorsed by Proxmox Server Solutions GmbH.
