@@ -1,0 +1,12 @@
+baseURL = "https://proxui.app/"
+languageCode = "en-us"
+title = "ProxUI - Modern Web Interface for Proxmox"
+enableRobotsTXT = true
+
+[params]
+  description = "A lightweight, modern web interface for Proxmox VE with mobile support, multi-cluster management, and cloud image templates."
+  logo = "https://proxui.app/proxui_logo.svg"
+  github = "https://github.com/greenlogles/ProxUI"
+
+[markup.goldmark.renderer]
+  unsafe = true

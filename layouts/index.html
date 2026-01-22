@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:description" content="{{ .Site.Params.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Site.BaseURL }}">
+    <meta property="og:image" content="{{ .Site.Params.logo }}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ .Site.Title }}">
+    <meta name="twitter:description" content="{{ .Site.Params.description }}">
+
+    <link rel="icon" type="image/svg+xml" href="{{ .Site.Params.logo }}">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="container">
+        {{ .Content }}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; {{ now.Year }} ProxUI. Open source under MIT License.</p>
+        </div>
+    </footer>
+</body>
+</html>
