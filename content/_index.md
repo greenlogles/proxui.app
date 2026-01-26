@@ -4,12 +4,12 @@ description: "A lightweight, modern web interface for Proxmox VE"
 ---
 
 <div class="hero">
-  <img src="https://proxui.app/proxui_logo.svg" alt="ProxUI Logo" class="logo">
+  <img src="https://proxui.app/images/proxui_logo.svg" alt="ProxUI Logo" class="logo">
   <h1>ProxUI</h1>
   <p class="tagline">A modern, lightweight web interface for Proxmox VE</p>
   <div class="cta-buttons">
     <a href="https://github.com/greenlogles/ProxUI" class="btn btn-primary">View on GitHub</a>
-    <a href="https://demo.proxui.app" class="btn btn-secondary">Live Demo (comming soon)</a>
+    <a href="https://demo.proxui.app" class="btn btn-secondary">Live Demo</a>
   </div>
 </div>
 
@@ -67,7 +67,7 @@ Built with simplicity in mind, ProxUI provides a clean, responsive interface tha
 
 ## Screenshots
 
-*Coming soon*
+<img src="https://proxui.app/images/proxui_screencast_mobile.gif" alt="ProxUI Mobile Screencast">
 
 ---
 
