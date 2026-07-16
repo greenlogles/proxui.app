@@ -77,7 +77,7 @@ Built with simplicity in mind, ProxUI provides a clean, responsive interface tha
 
 ```bash
 docker run -d \
-  -p 5000:5000 \
+  -p 8080:8080 \
   -v proxui-data:/app/data \
   ghcr.io/greenlogles/proxui:latest
 ```
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Then open [http://localhost:5000](http://localhost:5000) and connect to your Proxmox cluster.
+Then open [http://localhost:8080](http://localhost:8080) and connect to your Proxmox cluster.
 
 ---
 
