@@ -430,11 +430,11 @@ select.inp{ appearance:none; background-image:url("data:image/svg+xml,%3Csvg%20x
 .mini-tbl td:last-child{ text-align:right; }
 
 /* distro strip */
-.strip{ padding:26px 0 6px; } .strip .lbl{ text-align:center; font-size:11.5px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--text-faint); }
-.strip .row{ display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-top:16px; }
-.distro{ display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:600; color:var(--text-muted);
-  background:var(--panel); border:1px solid var(--border); padding:8px 15px; border-radius:10px; }
-.distro .bi{ color:var(--accent); font-size:15px; }
+.strip{ padding:22px 0 4px; } .strip .lbl{ text-align:center; font-size:11.5px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--text-faint); }
+.strip .row{ display:flex; gap:8px; flex-wrap:wrap; justify-content:center; margin-top:14px; }
+.distro{ display:inline-flex; align-items:center; gap:6px; font-size:12.5px; font-weight:600; color:var(--text-muted);
+  background:var(--panel); border:1px solid var(--border); padding:6px 12px; border-radius:8px; }
+.distro img{ width:14px; height:14px; display:block; }
 
 .section{ padding:74px 0; }
 .section-head{ text-align:center; max-width:640px; margin:0 auto 44px; }
@@ -584,11 +584,14 @@ select.inp{ appearance:none; background-image:url("data:image/svg+xml,%3Csvg%20x
   <div class="strip"><div class="lp-wrap">
     <div class="lbl">One-click cloud images from</div>
     <div class="row">
-      <span class="distro"><i class="bi bi-ubuntu"></i> Ubuntu</span>
-      <span class="distro"><i class="bi bi-disc-fill"></i> Debian</span>
-      <span class="distro"><i class="bi bi-disc-fill"></i> Fedora</span>
-      <span class="distro"><i class="bi bi-disc-fill"></i> Rocky Linux</span>
-      <span class="distro"><i class="bi bi-disc-fill"></i> AlmaLinux</span>
+      <span class="distro"><img src="https://cdn.simpleicons.org/ubuntu" alt=""> Ubuntu</span>
+      <span class="distro"><img src="https://cdn.simpleicons.org/debian" alt=""> Debian</span>
+      <span class="distro"><img src="https://cdn.simpleicons.org/fedora" alt=""> Fedora</span>
+      <span class="distro"><img src="https://cdn.simpleicons.org/rockylinux" alt=""> Rocky Linux</span>
+      <span class="distro"><img src="https://cdn.simpleicons.org/almalinux" alt=""> AlmaLinux</span>
+      <span class="distro"><img src="https://cdn.simpleicons.org/freebsd" alt=""> FreeBSD</span>
+      <span class="distro"><img src="https://cdn.simpleicons.org/openbsd" alt=""> OpenBSD</span>
+      <span class="distro"><img src="https://cdn.simpleicons.org/netbsd" alt=""> NetBSD</span>
     </div>
   </div></div>
 
@@ -604,7 +607,7 @@ select.inp{ appearance:none; background-image:url("data:image/svg+xml,%3Csvg%20x
       <div class="feat"><div class="ic warn"><i class="bi bi-stack"></i></div><h3>Reusable container profiles</h3><p>One-click profiles for common workloads (Jellyfin QuickSync, Immich, Docker-in-LXC, Tailscale) with a diff preview before anything is applied.</p></div>
       <div class="feat"><div class="ic blue"><i class="bi bi-hdd-network"></i></div><h3>Multi-cluster command center</h3><p>Connect and switch between multiple Proxmox clusters or standalone nodes from a single interface, with saved connections and live health status.</p></div>
       <div class="feat"><div class="ic ok"><i class="bi bi-terminal"></i></div><h3>Mobile-ready console</h3><p>Full noVNC console access to VMs and containers with a built-in on-screen virtual keyboard, designed to actually work on a phone or tablet.</p></div>
-      <div class="feat"><div class="ic violet"><i class="bi bi-cloud-download"></i></div><h3>Full cloud-init support</h3><p>One-click VM templates from popular cloud images (Ubuntu, Debian, Rocky, Alma, Fedora), plus native cloud-init editing — users, networks, SSH keys — with custom snippet support for anything the native fields don't cover.</p></div>
+      <div class="feat"><div class="ic violet"><i class="bi bi-cloud-download"></i></div><h3>Full cloud-init support</h3><p>One-click VM templates from popular cloud images (Ubuntu, Debian, Rocky, Alma, Fedora, FreeBSD, OpenBSD, NetBSD), plus native cloud-init editing — users, networks, SSH keys — with custom snippet support for anything the native fields don't cover.</p></div>
       <div class="feat"><div class="ic slate"><i class="bi bi-speedometer2"></i></div><h3>Node health at a glance</h3><p>Per-node view of storage, local disks with SMART health, and ZFS pool status — the hardware picture Proxmox's summary tab doesn't give you.</p></div>
       <div class="feat"><div class="ic warn"><i class="bi bi-hourglass-split"></i></div><h3>Background job tracking</h3><p>Long-running operations (clones, template builds) run as background jobs with real-time step-by-step progress instead of a spinning page.</p></div>
       <div class="feat"><div class="ic blue"><i class="bi bi-phone"></i></div><h3>Built for every screen</h3><p>A responsive layout with light/dark mode that's equally at home on a workstation or a phone during an on-call fire drill.</p></div>
